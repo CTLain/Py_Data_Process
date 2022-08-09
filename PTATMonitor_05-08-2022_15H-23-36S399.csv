@@ -1,6 +1,6 @@
 timestamp,Date,Relative Time(mS),Power-IA Power(Watts),Power-GT Power(Watts),Power-Package Power(Watts),Turbo Parameters-MMIO Power Limit_1 Enabled(),Turbo Parameters-MMIO Power Limit_1 Critical Clamp(),Turbo Parameters-MMIO Power Limit_1 Power(Watts),Turbo Parameters-MMIO Power Limit_1 Time(Seconds),Turbo Parameters-MMIO Power Limit_2 Enabled(),Turbo Parameters-MMIO Power Limit_2 Power(Watts),Turbo Parameters-MMIO Power Limit_2 Time(Seconds),Turbo Parameters-PECI Pkg Power Limit_1 Enabled(),Turbo Parameters-PECI Pkg Power Limit_1 Power(Watts),Turbo Parameters-PECI Pkg Power Limit_1 Time(Seconds),Turbo Parameters-PECI Pkg Power Limit_2 Enabled(),Turbo Parameters-PECI Pkg Power Limit_2 Power(Watts),Turbo Parameters-PECI Pkg Power Limit_2 Time(Seconds)
 15:23:37:559,5/8/2022,0,2.389072,0.088566,7.435121,Yes,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
-15:23:38:565,5/8/2022,1006,0.869212,0.009873,5.171174,Yes,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
+15:23:38:565,5/8/2022,1006,0.869212,0.009873,5.171174,No,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
 15:23:39:562,5/8/2022,2003,0.984632,0.000485,5.334448,Yes,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
 15:23:40:543,5/8/2022,2984,1.104198,0.002202,5.189151,Yes,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
 15:23:41:626,5/8/2022,4067,1.747225,0.08794,6.28127,Yes,1,15,28,Yes,28,0.002441,Yes,28,28,Yes,64,28
