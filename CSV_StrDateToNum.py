@@ -23,13 +23,11 @@ for i, file in enumerate(csv_files):
             df[columns] = df[columns].eq('Yes').mul(1)
             # df[columns] = df[columns].map(dict('Yes'=1, 'No'=0), na_action='ignore')
 
+    # Rename file after parsing, file change to label_num.csv
     # classify_name = file.split('\\')
     classify_name = re.split(r'( |/|\\)', file)
     list_len = len(classify_name)
-    print(classify_name[list_len-1])
-
     classify_name[list_len-1] = classify_name[list_len-1].split('_')[0] + "_" + str(i)
-    print(classify_name[list_len-1])
     file = ''
     for a in classify_name:
         file += a 
