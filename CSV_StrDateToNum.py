@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import glob
 import re
+from datetime import datetime
 
 path = os.getcwd()
 csv_files = glob.glob(os.path.join(path, "*.csv"))
@@ -32,4 +33,6 @@ for i, file in enumerate(csv_files):
     for a in classify_name:
         file += a 
 
-    df.to_csv(file + ".csv", index=False)
+    now = datetime.now()
+    current_time = now.strftime("_%H%M%S")
+    df.to_csv(file + str(current_time) + ".csv", index=False)
